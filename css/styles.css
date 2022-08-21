@@ -233,7 +233,10 @@ footer{
 
 /** media queries **/
 @media only screen and (max-width: 988px) {
-
+    h1 {
+        font-weight: 600;
+        font-size: 45px !important;
+    }
     .about {
         height: 100%;
     }
@@ -268,7 +271,10 @@ footer{
 
 
 @media (max-width: 600px) {
-
+    h1 {
+        font-weight: 400;
+        font-size: 35px !important;
+    }
     .about-polygon,
     .about-polygon:after {
         height: 55px;
