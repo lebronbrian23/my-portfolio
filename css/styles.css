@@ -277,6 +277,9 @@ footer{
         margin-top: 0;
         height: 80px;
     }
+    .skill-icon{
+        font-size: 3.0rem;
+    }
     .contact{
         height: 100%
     }
@@ -293,6 +296,9 @@ footer{
     .intro-polygon,
     .intro-polygon:after {
         height: 120px;
+    }
+    .skill-icon{
+        font-size: 2.5rem;
     }
     footer{
         height: 100%;
