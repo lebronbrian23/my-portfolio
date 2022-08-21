@@ -282,7 +282,7 @@ footer{
     }
 
     footer{
-        height: auto;
+        height: 100%;
     }
 }
 @media (max-width: 520px) {
