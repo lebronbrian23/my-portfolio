@@ -286,12 +286,17 @@ footer{
 
     footer{
         height: 100%;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 520px) {
     .intro-polygon,
     .intro-polygon:after {
         height: 120px;
+    }
+    footer{
+        height: 100%;
+        margin-bottom: 20px;
     }
 }
 
