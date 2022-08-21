@@ -280,6 +280,9 @@ footer{
     .contact{
         height: 100%
     }
+    .bottom-nav{
+      display: none;
+    }
 
     footer{
         height: 100%;
