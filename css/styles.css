@@ -8,6 +8,7 @@ html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    width: 100%;
 }
 *, *::before, *::after {
     box-sizing:border-box;
@@ -21,6 +22,7 @@ body{
     font-size:1.8em;
     align-items: center;
     letter-spacing: 0.04em;
+    width: 100%;
 }
 /** General utility styles */
 h2{
