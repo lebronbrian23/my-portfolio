@@ -1,7 +1,3 @@
-/** importing fonts from google*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-
-
 /* Set the box-sizing property for the entire page so that
  * width calculations include everything up until the
  * border.
@@ -32,8 +28,8 @@ h2{
 }
 h1{
     font-weight: 800;
-    font-size: 55px !important;
-    line-height: 58px;
+    font-size: 50px !important;
+    line-height: 48px;
     text-align: center;
     color: #000000;
 }
@@ -273,7 +269,7 @@ footer{
 @media (max-width: 600px) {
     h1 {
         font-weight: 400;
-        font-size: 35px !important;
+        font-size: 30px !important;
     }
     .about-polygon,
     .about-polygon:after {
@@ -304,6 +300,10 @@ footer{
     }
 }
 @media (max-width: 520px) {
+    h1 {
+        font-weight: 350;
+        font-size: 25px !important;
+    }
     .intro-polygon,
     .intro-polygon:after {
         height: 120px;
