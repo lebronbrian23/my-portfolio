@@ -32,7 +32,7 @@ h2{
 }
 h1{
     font-weight: 800;
-    font-size: 48px;
+    font-size: 55px !important;
     line-height: 58px;
     text-align: center;
     color: #000000;
@@ -172,6 +172,7 @@ input:focus{outline:none;}
 }
 .skill-icon{
     font-size: 5.5rem;
+    color: #0c63e4;
 }
 .skill-polygon,
 .skill-polygon:after {
@@ -278,7 +279,7 @@ footer{
     .skill-polygon,
     .skill-polygon:after {
         margin-top: 0;
-        height: 80px;
+        height: 100px;
     }
     .skill-icon{
         font-size: 2.5rem;
