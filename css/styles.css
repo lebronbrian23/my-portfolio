@@ -9,13 +9,16 @@
 html {
     box-sizing:border-box; /* content-box is default */
     scroll-padding-top: 100px;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 *, *::before, *::after {
     box-sizing:border-box;
 }
 
 body{
-    font-family: 'Inter',
+    font-family: "Mada", sans-serif;
     font-style: normal;
     line-height: 1.3em;
     margin: 0;
