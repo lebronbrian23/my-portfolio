@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;900&display=swap');
 /* Set the box-sizing property for the entire page so that
  * width calculations include everything up until the
  * border.
@@ -5,7 +6,7 @@
 html {
     box-sizing:border-box; /* content-box is default */
     scroll-padding-top: 100px;
-    font-family: sans-serif;
+    font-family: 'Mada', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     width: 100%;
@@ -15,7 +16,7 @@ html {
 }
 
 body{
-    font-family: "Mada", sans-serif;
+    font-family: 'Mada', sans-serif;
     font-style: normal;
     line-height: 1.3em;
     margin: 0;
@@ -87,12 +88,19 @@ input:focus{outline:none;}
 .header-bg-color {
     background-color: #00509D;
 }
+
 .nav-item{
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
 }
-
+.navbar-nav > a:hover{
+    border-bottom: solid 4px white;
+}
+.bottom-navlist > li > a:hover{
+    border-bottom: solid 4px white;
+    width: 50%;
+}
 /** Intro **/
 .intro{
     width: 100%;
@@ -273,6 +281,9 @@ footer{
         font-weight: 400;
         font-size: 30px !important;
     }
+    .intro-h2{
+        font-size: 25px !important;
+    }
     .about-polygon,
     .about-polygon:after {
         height: 55px;
@@ -306,6 +317,9 @@ footer{
         font-weight: 350;
         font-size: 25px !important;
     }
+    .intro-h2{
+        font-size: 20px !important;
+    }
     .intro-polygon,
     .intro-polygon:after {
         height: 120px;
@@ -318,5 +332,6 @@ footer{
         height: 100%;
         margin-bottom: 20px;
     }
+
 }
 
