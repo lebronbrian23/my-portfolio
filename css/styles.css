@@ -160,7 +160,7 @@ input:focus{outline:none;}
 
 /*#7689D8*/
 .about-polygon {
-    background-color: #ffffff;
+    background-color: #A1EACD;
 }
 
 .about-polygon:after {
@@ -188,7 +188,7 @@ input:focus{outline:none;}
 }
 
 .skill-polygon {
-    background-color: #A1EACD;
+    background-color: #FCB9B2;
 }
 
 .skill-polygon:after {
@@ -210,7 +210,7 @@ input:focus{outline:none;}
 }
 
 .work-polygon {
-    background-color: #FCB9B2;
+    background-color: #FFFFFF;
 }
 
 .work-polygon:after {
